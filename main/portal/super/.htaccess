@@ -1,0 +1,9 @@
+# -FrontPage-
+RewriteEngine on
+
+RewriteRule ^([a-zA-Z0-9_-]+)\.html$ $1.php
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.php
+
+
+
+
